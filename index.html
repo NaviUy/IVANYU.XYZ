@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>IVAN</title>
+    <meta name="description" content="Ivan Yu's | Software Engineering Student">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Candal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <section id="home" style="background-image: url(&quot;assets/img/background_xyz2.png&quot;);background-repeat: repeat;background-size: auto;height: 100vh;">
+        <div class="row" style="margin-right: 0;margin-left: 0;padding-top: 0;">
+            <div class="col"></div>
+            <div class="col-xl-3" id="nav-bar">
+                <div class="container" style="background-color: rgba(255,255,255,0);color: rgb(0,0,0);">
+                    <a href="#home" style="color: rgb(0,0,0);">
+                        <h1 class="text-center" style="font-family: Montserrat, sans-serif;font-weight: bold;">HOME</h1>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#resume" style="color: rgb(0,0,0);">
+                        <h1 class="text-center" style="margin-top: 10px;">RESUME</h1>
+                    </a>
+                </div>
+                <div class="container" style="margin-top: 10px;">
+                    <a href="#contact" style="color: rgb(0,0,0);">
+                        <h1 class="text-center">CONTACT</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-9" id="homepage" style="padding-top: 50vh;">
+                <h5 class="text-center" style="font-family: Montserrat, sans-serif;font-weight: bold;">IVAN YU</h5>
+                <h6 class="text-center">SOFTWARE ENGINEERING STUDENT</h6>
+                <div class="container-fluid d-flex" style="width: 285px;">
+                    <div style="margin-right: auto;margin-left: auto;"><a href="www.linkedin.com/in/ ivan-yu-bb9215149" style="margin-right: 7.5px;margin-left: 7.5px;"><i class="typcn typcn-social-linkedin" id="linkedin-icon"></i></a><a href="https://github.com/NaviUy" style="margin-right: 7.5px;margin-left: 7.5px;"><i class="icon ion-social-github" id="github-icon"></i></a>
+                        <a
+                            href="#" style="margin-right: 7.5px;margin-left: 7.5px;"><i class="typcn typcn-mail" id="email-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" style="width: 100%;height: 100vh;background-image: url(&quot;assets/img/background_xyz2_blue.png&quot;);">
+        <div class="row" style="height: 100vh;padding-top: 5%;">
+            <div class="col-xl-3"></div>
+            <div class="col text-center" data-aos="fade-right" data-aos-duration="900" data-aos-delay="200" id="pdf" style="margin-top: 5%;"><div class="col">
+ <iframe src="https://drive.google.com/file/d/1_l00j65YKS_oF27dtZfpJz9Bdsuxw7Sp/preview" width="80%" height="500px" frameborder="0" overflow="auto"></iframe>></div></div>
+        </div>
+    </section>
+    <section id="contact" style="width: 100%;height: 100vh;background-image: url(&quot;assets/img/background_xyz2_pink.png&quot;);">
+        <div class="row">
+            <div class="col-xl-3"></div>
+            <div class="col">
+                <div class="container"><img data-aos="fade-down" data-aos-duration="950" id="logo" src="assets/img/IY-BLACK.png"></div>
+                <h4 class="text-center" data-aos="fade-down" data-aos-delay="100" style="font-family: Montserrat, sans-serif;font-weight: bold;padding-top: 20px;">IVANYU626@GMAIL.COM</h4>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>
